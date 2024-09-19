@@ -129,6 +129,8 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
 ```
 
+Learning about `nmap` and how to use it
+
 # Level 17
 `cd $(mktemp -d)`
 `vi sshkey.private`
@@ -136,7 +138,11 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 `chmod 700 sshkey.private`
 `ssh -i ./sshkey.private ssh://bandit17@bandit.labs.overthewire.org:2220`
 
+`ssh`-ing with a key rather than a password (and also some permissions practice)
+
 # Level 18
 `diff passwords.new passwords.old`
 `cat passwords.new | grep x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO` (make sure which one is in `passwords.new`)
 `x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO`
+
+practicing with `diff`
